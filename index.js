@@ -2,6 +2,7 @@ var _ = require('lodash');
 var request = require('request').defaults({
     baseUrl: 'https://app.asana.com/api/1.0/'
 });
+
 var globalPickResult = {
     'data': {
         key: 'data',
