@@ -4,14 +4,9 @@ var request = require('request').defaults({
 });
 
 var globalPickResult = {
-    'data': {
-        key: 'data',
-        fields: {
-            'id': 'id',
-            'notes': 'notes',
-            'name': 'name'
-        }
-    }
+    'data.id': 'id',
+    'data.notes': 'notes',
+    'data.name': 'name'
 };
 
 

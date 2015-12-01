@@ -4,23 +4,25 @@
 {
     //Required. Inputs the module expects.
     "inputs": [
-        //e.g.
-        /*
         {
-            "id": "from",
-            "title":"From"
+            "id": "project",
+            "title":"Project ID"
         }
-        */
     ],
     //Required. Outputs the module emits.
     "outputs": [
-      //e.g.
-      /*
         {
-            "id": "from",
-            "title":"From"
+            "id": "id",
+            "title":"ID Project"
+        },
+        {
+            "id": "notes",
+            "title":"More detailed"
+        },
+        {
+            "id": "name",
+            "title":"Name of the project"
         }
-      */
     ],
     "title": "Asana Get Project" /* Required.A display name for the module */
 }
