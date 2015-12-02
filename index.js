@@ -95,7 +95,13 @@ module.exports = {
 
         this.apiRequest('get', 'projects/'.concat(step.input('project').first()), {}, auth, function (error, responce, body) {
 
-            this.complete(this.pickResult(body, globalPickResult));
+            if (error || body.errors) {
+
+                this.fail(error || body.errors);
+            } else {
+
+                this.complete(this.pickResult(body, globalPickResult));
+            }
         }.bind(this));
     }
 };
