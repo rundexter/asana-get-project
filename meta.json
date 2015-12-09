@@ -24,5 +24,6 @@
             "title":"Name of the project"
         }
     ],
+    "icon": "tasks",
     "title": "Asana Get Project" /* Required.A display name for the module */
 }
