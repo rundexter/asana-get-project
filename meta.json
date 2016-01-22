@@ -24,6 +24,9 @@
             "title":"Name of the project"
         }
     ],
+    "providers": [{
+        "name": "asana"
+    }],
     "icon": "tasks",
     "title": "Asana Get Project" /* Required.A display name for the module */
 }
