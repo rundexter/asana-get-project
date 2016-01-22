@@ -2,14 +2,12 @@
  * Metadata describing the module operation
  */
 {
-    //Required. Inputs the module expects.
     "inputs": [
         {
             "id": "project",
             "title":"Project ID"
         }
     ],
-    //Required. Outputs the module emits.
     "outputs": [
         {
             "id": "id",
@@ -28,5 +26,5 @@
         "name": "asana"
     }],
     "icon": "tasks",
-    "title": "Asana Get Project" /* Required.A display name for the module */
+    "title": "Asana Get Project"
 }
